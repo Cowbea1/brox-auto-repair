@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
+      
       {/* NAVBAR */}
       <nav className="border-b border-white/10">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
@@ -274,6 +275,7 @@ export default function Home() {
             <div className="grid gap-5 md:grid-cols-2">
               <input
                 type="date"
+                placeholder="Preferred Date"
                 name="preferred_date"
                 className="rounded-lg border border-white/10 bg-zinc-900 px-4 py-4 text-zinc-400 outline-none focus:border-red-500"
               />
