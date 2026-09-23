@@ -334,6 +334,23 @@ export default function Home() {
           </div>
 
           <div>
+            <p className="text-sm text-zinc-500">Email</p>
+            <a
+              href="mailto:info@broxautorepair.com"
+              className="mt-2 block font-medium hover:text-red-500"
+            >
+              info@broxautorepair.com
+            </a>
+          </div>
+
+        <div>
+          <p className="text-sm text-zinc-500">Hours</p>
+          <p className="mt-2 text-zinc-300">
+            Open Mon-Fri: 8am - 5pm
+          </p>
+        </div>
+
+          <div>
             <p className="text-sm text-zinc-500">Location</p>
             <a
               href="https://maps.app.goo.gl/17ipDpnxsNaHbDsY7"
